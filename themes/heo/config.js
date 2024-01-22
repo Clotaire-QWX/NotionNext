@@ -15,11 +15,11 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: "Sid Meier's Civilization VI",
-  HEO_HERO_TITLE_2: '巴巴里杯',
+  HEO_HERO_TITLE_1: "文明6巴巴里杯",
+  HEO_HERO_TITLE_2: 'S2赛季',
   HEO_HERO_TITLE_3: 'civ6barbaricup.fun',
   HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: 'S2赛季',
+  HEO_HERO_TITLE_5: 'S1冠军战队',
   HEO_HERO_TITLE_LINK: 'https://www.civ6barbaricup.fun/',
 
   // 英雄区显示三个置顶分类

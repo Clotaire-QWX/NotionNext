@@ -107,7 +107,7 @@ function Banner(props) {
         }
       >
         <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-          <div className="text-7xl text-white font-extrabold">随便逛逛</div>
+          <div className="text-7xl text-white font-extrabold">报名参赛!</div>
           <div className="-ml-3 text-gray-300">
             <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
           </div>
@@ -373,7 +373,7 @@ function TodayCard({ cRef, siteInfo }) {
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
             <div id="more" className="select-none">
-              热门战队
+              更多热门战队
             </div>
           </div>
         </div>
@@ -383,7 +383,7 @@ function TodayCard({ cRef, siteInfo }) {
             isCoverUp ? '' : ' pointer-events-none'
           } cursor-pointer today-card-cover absolute w-full h-full top-0`}
           style={{
-            background: `url('${siteInfo?.pageCover}') no-repeat center /cover`
+            background: `url('/images/heo/champion.png') no-repeat center /cover`
           }}
         ></div>
       </div>
