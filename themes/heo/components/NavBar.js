@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Logo from './Logo'
 import throttle from 'lodash.throttle'
-import RandomPostButton from './RandomPostButton'
+// import RandomPostButton from './RandomPostButton'
 import SearchButton from './SearchButton'
 import DarkModeButton from './DarkModeButton'
 import SlideOver from './SlideOver'
@@ -145,7 +145,7 @@ const NavBar = props => {
 
                 {/* 右侧固定 */}
                 <div className='flex flex-shrink-0 justify-center items-center'>
-                    <RandomPostButton {...props} />
+                    {/* <RandomPostButton {...props} /> */}
                     <SearchButton {...props}/>
                     {!JSON.parse(siteConfig('THEME_SWITCH')) && <div className='hidden md:block'><DarkModeButton {...props} /></div>}
                     <ReadingProgress />
