@@ -80,11 +80,10 @@ function Banner(props) {
 
   return (
     <div
-      id="banners" onclick="window.open('https://f.kdocs.cn/g/kSCkXbwJ/')"
+      id="banners"
       // onClick={handleClickBanner}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
     >
-      <a href=""></a>
       <div id="banner-title" className="flex flex-col absolute top-10 left-10">
         <div className="text-4xl font-bold mb-3  dark:text-white">
           {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
@@ -108,7 +107,7 @@ function Banner(props) {
         }
       >
         <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-          <div className="text-7xl text-white font-extrabold">报名参赛!</div>
+          <div className="text-7xl text-white font-extrabold"><a href="https://f.kdocs.cn/g/kSCkXbwJ/">报名</a></div>
           <div className="-ml-3 text-gray-300">
             <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
           </div>

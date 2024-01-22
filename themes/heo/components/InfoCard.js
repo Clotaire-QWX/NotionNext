@@ -29,9 +29,9 @@ export function InfoCard(props) {
                 {/* </div> */}
             {/* </div> */}
 
-            {/* <h2 className='text-3xl font-extrabold mt-3'> */}
-                {/* {siteConfig('AUTHOR')} */}
-            {/* </h2> */}
+            <h2 className='text-3xl font-extrabold mt-3'>
+                赛事公告
+            </h2>
 
             {/* 公告栏 */}
             <div>
