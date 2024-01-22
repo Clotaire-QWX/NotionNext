@@ -72,16 +72,20 @@ function Banner(props) {
   /**
    * 随机跳转文章
    */
-  function handleClickBanner() {
-    const randomIndex = Math.floor(Math.random() * latestPosts.length)
-    const randomPost = latestPosts[randomIndex]
-    router.push(`${siteConfig('SUB_PATH', '')}/${randomPost?.slug}`)
+  // function handleClickBanner() {
+  //   const randomIndex = Math.floor(Math.random() * latestPosts.length)
+  //   const randomPost = latestPosts[randomIndex]
+  //   router.push(`${siteConfig('SUB_PATH', '')}/${randomPost?.slug}`)
+  // }
+  function newPage() {
+      window.open("https://f.kdocs.cn/g/kSCkXbwJ/");
   }
 
   return (
     <div
       id="banners"
       // onClick={handleClickBanner}
+      onClick={newPage}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
     >
       <div id="banner-title" className="flex flex-col absolute top-10 left-10">
@@ -107,7 +111,7 @@ function Banner(props) {
         }
       >
         <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-          <div className="text-7xl text-white font-extrabold"><a href="https://f.kdocs.cn/g/kSCkXbwJ/">报名</a></div>
+          <div className="text-7xl text-white font-extrabold">点击报名</div>
           <div className="-ml-3 text-gray-300">
             <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
           </div>
