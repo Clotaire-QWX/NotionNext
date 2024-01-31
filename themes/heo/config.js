@@ -23,7 +23,7 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://www.civ6barbaricup.fun/',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '比赛奖金池', url: '/article/prize' },
+  HEO_HERO_CATEGORY_1: { title: '比赛奖励池', url: '/article/prize' },
   HEO_HERO_CATEGORY_2: { title: '比赛赞助方', url: '/article/support' },
   HEO_HERO_CATEGORY_3: { title: '比赛主办方', url: '/article/organizer' },
 
