@@ -6,6 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎关注巴巴里杯系列赛事', url: 'https://www.civ6barbaricup.fun/' },
+    { title: '网页建议PC端访问', url: 'https://www.civ6barbaricup.fun/' },
     { title: 'S2赛季官方赛事群:397152642', url: 'https://www.civ6barbaricup.fun/' }
   ],
 
