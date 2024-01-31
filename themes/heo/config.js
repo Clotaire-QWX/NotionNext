@@ -19,7 +19,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: 'S2赛季',
   HEO_HERO_TITLE_3: 'civ6barbaricup.fun',
   HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: 'S1冠军战队:养龟队',
+  HEO_HERO_TITLE_5: 'S1冠军战队：养龟队！',
   HEO_HERO_TITLE_LINK: 'https://www.civ6barbaricup.fun/',
 
   // 英雄区显示三个置顶分类
