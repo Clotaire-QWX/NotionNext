@@ -25,7 +25,7 @@ const CONFIG = {
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '比赛奖金池', url: '/article/prize' },
   HEO_HERO_CATEGORY_2: { title: '比赛赞助方', url: '/article/support' },
-  HEO_HERO_CATEGORY_3: { title: '比赛主办方', url: '/article/owner' },
+  HEO_HERO_CATEGORY_3: { title: '比赛主办方', url: '/article/organizer' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '队伍信息',
