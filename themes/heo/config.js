@@ -7,7 +7,7 @@ const CONFIG = {
   HEO_NOTICE_BAR: [
     { title: '欢迎关注巴巴里杯系列赛事', url: 'https://www.civ6barbaricup.fun/' },
     { title: '网页建议PC端访问', url: 'https://www.civ6barbaricup.fun/' },
-    { title: 'S2赛季官方赛事群:397152642', url: 'https://www.civ6barbaricup.fun/' }
+    { title: 'S3赛季官方赛事群:689377152', url: 'https://www.civ6barbaricup.fun/' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -17,10 +17,10 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: "文明6巴巴里杯",
-  HEO_HERO_TITLE_2: 'S2赛季',
+  HEO_HERO_TITLE_2: 'S3赛季',
   HEO_HERO_TITLE_3: 'civ6barbaricup.fun',
   HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: 'S1冠军战队：养龟队！',
+  HEO_HERO_TITLE_5: 'S2冠军战队：去我对面队！',
   HEO_HERO_TITLE_LINK: 'https://www.civ6barbaricup.fun/',
 
   // 英雄区显示三个置顶分类
